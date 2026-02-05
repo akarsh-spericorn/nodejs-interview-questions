@@ -21,6 +21,20 @@ A comprehensive collection of interview questions for Node.js developers at vari
 | [mongodb-nodejs.md](./databases/mongodb-nodejs.md) | MongoDB | 50 | MongoDB with Node.js (Mongoose) |
 | [sequelize-nodejs.md](./databases/sequelize-nodejs.md) | Sequelize | 50 | Sequelize ORM for SQL databases |
 
+### Machine Test Projects
+
+Hands-on coding challenges with intentionally buggy Express.js + TypeScript applications.
+
+| # | Project | Domain | Difficulty | Focus Areas |
+|---|---------|--------|------------|-------------|
+| 1 | [E-Commerce Orders](./machine-tests/01-ecommerce-orders/) | E-Commerce | Medium | SQL injection, transactions, race conditions |
+| 2 | [Healthcare Appointments](./machine-tests/02-healthcare-appointments/) | Healthcare | Medium | Scheduling conflicts, date/time handling |
+| 3 | [Banking Transactions](./machine-tests/03-banking-transactions/) | FinTech | Hard | Security, data integrity, atomicity |
+| 4 | [Task Management](./machine-tests/04-task-management/) | Productivity | Easy-Medium | CRUD, pagination, route ordering |
+| 5 | [Inventory Warehouse](./machine-tests/05-inventory-warehouse/) | Logistics | Medium-Hard | Stock accuracy, concurrent updates |
+
+> **For Interviewers**: Each project contains a `SOLUTION.md` with all bugs listed. Remove before giving to candidates.
+
 ## How to Use
 
 1. **For Interviewers**: Use questions matching the candidate's target level
